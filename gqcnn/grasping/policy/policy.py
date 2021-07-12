@@ -43,8 +43,10 @@ from sklearn.mixture import GaussianMixture
 
 import autolab_core.utils as utils
 from autolab_core import Point, Logger
-from perception import (BinaryImage, ColorImage, DepthImage, RgbdImage,
-                        SegmentationImage, CameraIntrinsics)
+#from perception import (BinaryImage, ColorImage, DepthImage, RgbdImage,
+#                        SegmentationImage, CameraIntrinsics)
+from autolab_core import (BinaryImage, ColorImage, DepthImage, RgbdImage,
+                        SegmentationImage, CameraIntrinsics)                        
 from visualization import Visualizer2D as vis
 
 from ..constraint_fn import GraspConstraintFnFactory

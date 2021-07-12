@@ -40,7 +40,8 @@ import scipy.spatial.distance as ssd
 import scipy.stats as ss
 
 from autolab_core import Point, RigidTransform, Logger
-from perception import (DepthImage, RgbdImage, GdImage)
+# from perception import (DepthImage, RgbdImage, GdImage)
+from autolab_core import (DepthImage, RgbdImage, GdImage)
 from visualization import Visualizer2D as vis
 
 from .grasp import Grasp2D, SuctionPoint2D, MultiSuctionPoint2D

@@ -31,7 +31,8 @@ Jeff Mahler
 import numpy as np
 
 from autolab_core import Point, RigidTransform
-from perception import CameraIntrinsics
+# from perception import CameraIntrinsics
+from autolab_core import CameraIntrinsics
 
 
 class Grasp2D(object):
